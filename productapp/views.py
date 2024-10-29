@@ -3,7 +3,7 @@ from .models import product
 from pathlib import os
 # Create your views here.
 def home(request):
-    return render(request,'products.html')
+    return render(request,'index.html')
 
 def add_product(request):
     if request.method =='POST':
